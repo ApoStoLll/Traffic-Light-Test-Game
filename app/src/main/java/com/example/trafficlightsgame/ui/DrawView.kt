@@ -57,11 +57,11 @@ class DrawView(context: Context?, private val scale : Float, private val OFFSET 
             drawScore(canvas)
         }
         if (end == 1){
-            p.textSize = 120F
+            p.textSize = 90F
             canvas.drawText("WIN", scale * 5, scale * 5, p)
         }
         if (end == -1){
-            p.textSize = 120F
+            p.textSize = 90F
             canvas.drawText("WASTED", scale * 5, scale * 5, p)
         }
     }
